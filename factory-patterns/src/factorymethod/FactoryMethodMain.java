@@ -11,7 +11,6 @@ public class FactoryMethodMain {
         creator = new TonerCreator();
         creator.useProduct();
 
-        creator = new SerumCreator();
         creator.useProduct();
     }
 }
